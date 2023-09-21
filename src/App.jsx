@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 
 function App() {
   const [photos, setPhotos] = useState(photosJson.photos);
-  // console.log(photos);
   return (
     <div className="app">
       <Context.Provider value={{ photos, setPhotos }}>
