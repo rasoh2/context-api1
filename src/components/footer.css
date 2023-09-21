@@ -1,0 +1,12 @@
+footer {
+  background-color: aquamarine;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  text-align: center;
+  margin-top: 1.5rem;
+}

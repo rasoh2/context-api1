@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background: #43a047;
+  padding: 1rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.nav-home {
+  margin: 0rem 1rem;
+}
+.nav-favoritos {
+  margin: 0rem 1rem;
+}
