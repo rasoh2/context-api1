@@ -1,4 +1,4 @@
-// Importa los componentes y rutas
+// Importa los componenetes y rutas
 
 import Card from "../components/Card";
 import { useContext } from "react";

@@ -2,7 +2,7 @@
 import Heart from "./Heart";
 import Context from "../context/context";
 import { useContext, useState } from "react";
-import FilledHeart from "./FilledHeart";
+import HeartFilled from "./HeartFilled";
 import "./card.css";
 
 const Card = ({ photo, index }) => {
@@ -54,7 +54,7 @@ const Card = ({ photo, index }) => {
         </div>
         <div onClick={handleHeartClick}>
           {/* Renderiza el corazón lleno o vacío según el estado de "liked" */}
-          {modifiedLiked ? <FilledHeart /> : <Heart />}
+          {modifiedLiked ? <HeartFilled /> : <Heart />}
         </div>
       </div>
     </div>
